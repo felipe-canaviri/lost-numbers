@@ -14,6 +14,7 @@ public class SequentialSearcherTests {
 
     @BeforeEach
     void initialize() {
+        searcher = new SequentialSearcher();
     }
 
     @Test
